@@ -1,0 +1,148 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+ 
+header {
+  padding: 20px 0;
+}
+
+header.row,
+footer.row {
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  font-wieght: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+  /*  this is where we left off */
+  
+header p{
+  padding: 0px 20px;
+  margin: 0;
+}
+
+
+ .jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("http://spanishschoolsouthamerican.com/wp-content/uploads/2017/01/ecuador-spanish-school.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+section .row img{
+  margin: 0 0 30px;
+  width: 100%;
+}
+.col-md-6 {
+  margin: 0 0 30px;
+}
+/* This is for the sidebar */
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:
+    space-around:/* or space-around */
+}
+.gallery a {
+  dispaly: inline-block;
+  margin-bottom: 8px;
+  width: calc(100% -4px);
+  text-decoration: none;
+  color: blue;
+}
+@media sreen and (min-width: 50em){
+  .gallery a{
+    width: calc(100% -6px)
+  }
+}
+a:hover img, {
+  transform: scale(1.15);
+}
+.galery figure {
+  margin-top: 35px;
+  overflow: hidden;
+}
+.gallery img{
+  border: none;
+  max-width: 100%
+    height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+/* sidebar pics ends */
+#des-gal{
+  display:block;
+  margin-bottom: 8px;
+  text-decortion: none;
+  color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:
+ space-around;
+  transition: transform .2s ease-in-out;
+}
+#des-del{
+  display:block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: blue;
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+  transition: transform .2s ease-in-out;
+}
+
+#des-gal figcaption{
+  flex-wrap: wrap;
+  margin-top: 35px;
+  overflow: hidden;
+}
+
+p .col-md-6 {
+  margin-top:30px;
+}
+
+
+
+.footer figure{
+  text-align:center;
+}
+
+.footer .col-sm-12{
+  background-color: grey;
+}
+ul 
+  {
+    list style-type: none;
+    margine: -15px -15px 0px -15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+  }
+}
